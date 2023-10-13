@@ -1,4 +1,4 @@
-const Part = (props) => {
+const Content = (props) => {
     console.log( 'Part Props:', props )
     return(
     <>
@@ -12,4 +12,4 @@ const Part = (props) => {
     )
 }
 
-export default Part
+export default Content

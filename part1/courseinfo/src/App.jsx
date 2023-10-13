@@ -1,5 +1,5 @@
 import Header from "./Header"
-import Part from "./Part"
+import Content from "./Content"
 
 const App = () => {
   const course = 'Half Stack application development';
@@ -13,19 +13,10 @@ const App = () => {
   return(
     <>
     <Header course={course}/>
-    <Part part={part1} exercises={exercises1}/>
-    <p>
-      Part 2: {part2}
-    </p>
-    <p>
-      Part 2 has {exercises2} exercises
-    </p>
-    <p>
-      Part 3: {part3}
-    </p>
-    <p>
-      Part 3 has {exercises3} exercises
-    </p>
+    <Content part={part1} exercises={exercises1}/>
+    <Content part={part2} exercises={exercises2}/>
+    <Content part={part3} exercises={exercises3}/>
+    <br />
     <p>
       The total number of exercises is {exercises1 + exercises2 + exercises3}
     </p>
