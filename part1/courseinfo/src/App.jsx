@@ -1,4 +1,5 @@
 import Header from "./Header"
+import Part from "./Part"
 
 const App = () => {
   const course = 'Half Stack application development';
@@ -12,12 +13,7 @@ const App = () => {
   return(
     <>
     <Header course={course}/>
-    <p>
-      Part 1: {part1} 
-    </p>
-    <p>
-      Part 1 has {exercises1} exercises
-    </p>
+    <Part part={part1} exercises={exercises1}/>
     <p>
       Part 2: {part2}
     </p>
