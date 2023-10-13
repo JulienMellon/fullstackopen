@@ -1,3 +1,5 @@
+import Header from "./Header"
+
 const App = () => {
   const course = 'Half Stack application development';
   const part1 = 'Fundamentals of React';
@@ -9,7 +11,7 @@ const App = () => {
   
   return(
     <>
-    <h1>Course: {course}</h1>
+    <Header course={course}/>
     <p>
       Part 1: {part1} 
     </p>
