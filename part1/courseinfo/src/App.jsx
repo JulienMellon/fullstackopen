@@ -25,7 +25,7 @@ const App = () => {
     <Header course={course}/>
     <Content parts={parts}/>
     <br />
-    <Total exercises={parts.map(x => x.exercises)}/>
+    <Total parts={parts}/>
     </>
   )
 }
