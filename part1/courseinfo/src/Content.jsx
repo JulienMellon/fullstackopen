@@ -1,13 +1,24 @@
+import Part from "./Part"
+
 const Content = (props) => {
-    console.log( 'Part Props:', props )
+    console.log( 'Content Props:', props )
     return(
     <>
-    <p>
-      Part 1: {props.part} 
-    </p>
-    <p>
-      Part 1 has {props.exercises} exercises
-    </p>
+    <h3>
+      Part 1: 
+    </h3>
+      <Part part={props.part1}/> 
+    
+      <h3>
+      Part 2: 
+    </h3>
+      <Part part={props.part2}/>
+
+      <h3>
+      Part 3: 
+    </h3>
+      <Part part={props.part3}/>
+
     </>
     )
 }
