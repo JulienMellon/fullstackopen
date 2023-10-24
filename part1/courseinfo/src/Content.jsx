@@ -5,7 +5,7 @@ const Content = (props) => {
     return(
       <>
         {/* <Part part={props.parts[0]} /> */}
-        {props.parts.map( (x, i) => (
+        {props.course.parts.map( (x, i) => (
           <div>
             <p>Part {i+1}</p>
             <Part part={x} />

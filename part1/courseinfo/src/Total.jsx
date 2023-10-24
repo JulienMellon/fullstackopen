@@ -1,6 +1,6 @@
 const Total = (props) => {
     console.log("Total component" , props)
-    const totalExercises = props.parts.reduce((acc, c) => acc + c.exercises, 0)
+    const totalExercises = props.course.parts.reduce((acc, c) => acc + c.exercises, 0)
     return (
         <>
         <p>
