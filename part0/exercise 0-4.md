@@ -1,3 +1,6 @@
+#Exercise 0.4
+
+hey cool, check out the diagram i made with mermaid syntax, it explains the add a note flow of https://studies.cs.helsinki.fi/exampleapp/notes
 
 ```mermaid
 sequenceDiagram
