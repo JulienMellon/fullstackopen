@@ -1,3 +1,5 @@
+
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -22,6 +24,6 @@ sequenceDiagram
 
     Note right of browser : executes javascript code that fetches json data <br /> and renders list of notes 
 
-
+```
 
     
